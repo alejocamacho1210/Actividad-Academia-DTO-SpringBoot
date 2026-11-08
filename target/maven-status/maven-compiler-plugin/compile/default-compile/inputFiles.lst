@@ -1,0 +1,14 @@
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/AcademyApplication.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/business/impl/StudentServiceImpl.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/business/service/ServiceResult.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/business/service/ServiceStatus.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/business/service/StudentService.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/persistence/entity/StudentEntity.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/persistence/entity/StudentStatus.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/persistence/repository/StudentJpaRepository.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/controller/StudentController.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/dto/PageResponse.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/dto/StudentRequest.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/dto/StudentResponse.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/dto/StudentStatusRequest.java
+/home/camper/Spring/Actividad-Academia-DTO-SpringBoot/src/main/java/com/academy/presentation/mapper/StudentMapper.java
