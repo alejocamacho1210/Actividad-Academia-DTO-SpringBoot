@@ -108,8 +108,38 @@ curl -X DELETE http://localhost:8080/api/v1/students/1
 ## Estructura del proyecto
 
 ```text
-src/main/java/com/academy/
-├── business/       # Servicios y resultados de negocio
-├── persistence/   # Entidades y repositorios JPA
-└── presentation/  # Controladores, DTOs y mapeadores
+Actividad-Academia-DTO-SpringBoot/
+├── src/
+│   ├── main/
+│   │   ├── java/com/academy/
+│   │   │   ├── business/
+│   │   │   │   ├── impl/
+│   │   │   │   │   └── StudentServiceImpl.java
+│   │   │   │   └── service/
+│   │   │   │       ├── ServiceResult.java
+│   │   │   │       ├── ServiceStatus.java
+│   │   │   │       └── StudentService.java
+│   │   │   ├── persistence/
+│   │   │   │   ├── entity/
+│   │   │   │   │   ├── StudentEntity.java
+│   │   │   │   │   └── StudentStatus.java
+│   │   │   │   └── repository/
+│   │   │   │       └── StudentJpaRepository.java
+│   │   │   ├── presentation/
+│   │   │   │   ├── controller/
+│   │   │   │   │   └── StudentController.java
+│   │   │   │   ├── dto/
+│   │   │   │   │   ├── PageResponse.java
+│   │   │   │   │   ├── StudentRequest.java
+│   │   │   │   │   ├── StudentResponse.java
+│   │   │   │   │   └── StudentStatusRequest.java
+│   │   │   │   └── mapper/
+│   │   │   │       └── StudentMapper.java
+│   │   │   └── AcademyApplication.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/com/academy/
+│           └── StudentControllerIntegrationTest.java
+└── pom.xml
 ```
